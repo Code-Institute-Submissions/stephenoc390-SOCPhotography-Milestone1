@@ -23,6 +23,27 @@ header {
     position: relative;
 }
 
+.heading,h2 {
+    font-family: "Staatliches" , sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.about-head {
+    font-family: "Staatliches" , sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.about-info {
+    font-family: "Poppins" , sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px 25px 40px 25px;
+}
+
 footer {
     background-color: black;
     font-family: "Staatliches" , sans-serif;
