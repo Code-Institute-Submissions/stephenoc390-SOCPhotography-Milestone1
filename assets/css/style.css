@@ -12,7 +12,7 @@ header {
 
 .hero-image  {
     height: 100vh;
-    background: url('../images/elephant-main.jpg') no-repeat center center fixed;
+    background: url('../images/hero-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,4 +71,12 @@ footer {
 
 #footer-details {
     padding-top: 40px;
+}
+
+#gallery {
+    clear: both;
+}
+
+.gallery-pics {
+    padding: 10px;
 }
