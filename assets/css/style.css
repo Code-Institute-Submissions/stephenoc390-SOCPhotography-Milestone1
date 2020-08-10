@@ -10,18 +10,58 @@ header {
     font-size: 25px;
 }
 
-.hero-image  {
-    height: 100vh;
-    background: url('../images/hero-image.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#hero-image  {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
     position: relative;
 }
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text, #cover-text h3 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 120%;
+    font-family: "Staatliches";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 0, 0, .7);
+
+    bottom: 150px;
+    left: 100px;
+
+    position: absolute;
+}
+
+
 
 .heading,h2 {
     font-family: "Staatliches" , sans-serif;
