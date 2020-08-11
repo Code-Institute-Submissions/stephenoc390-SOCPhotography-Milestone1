@@ -7,11 +7,12 @@ body {
 header {
     margin: 0;
     font-family: "Bangers" , sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    max-height: 80px
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 120%;
 }
 
 #hero-image  {
@@ -94,10 +95,11 @@ footer {
     background-color: black;
     font-size: 25px;
     color: #fff;
-    min-height: 100px
+    min-height: 90px
 }
 
 .social-links {
+    padding-top: 20px;
     text-align: center;
     letter-spacing: 60px;
 }
@@ -147,4 +149,17 @@ footer {
 
 #about-button {
     align-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 60px
+}
+
+#button {
+    height: 50px;
+    width: 200px;
+    padding: 50px 150px;
+    align-content: center;
+    
 }
