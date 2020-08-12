@@ -3,12 +3,14 @@
 body {
     color: #333333;
     font-family: "Comfortaa" , sans-serif;
+    background-color: #f1ff8c;
 }
 header {
     margin: 0;
     font-family: "Bangers" , sans-serif;
-    font-size: 30px;
-    max-height: 80px
+    font-size: 20px;
+    max-height: 60px;
+    letter-spacing: 5px;
 }
 
 .navbar-brand {
@@ -88,14 +90,14 @@ header {
     
     text-align: center;
     font-size: 15px;
-    padding: 25px 25px 40px 25px;
+    padding: 0px 30px 0px 50px;
 }
 
 footer {
     background-color: black;
     font-size: 25px;
     color: #fff;
-    min-height: 90px
+    min-height: 90px;
 }
 
 .social-links {
@@ -144,22 +146,15 @@ footer {
 #about-pics {
     align-content: center;
     padding-left: 40px;
-    scale: 0.8;
-}
-
-#about-button {
-    align-content: center;
-    width: 100px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    padding: 60px
+    scale: 20%;
 }
 
 #button {
-    height: 50px;
-    width: 200px;
-    padding: 50px 150px;
-    align-content: center;
-    
+    font-family: "Bangers" , sans-serif;
+    padding: 25px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    word-spacing: 24px;
 }
+
+
