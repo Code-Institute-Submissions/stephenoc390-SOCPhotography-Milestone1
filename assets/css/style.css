@@ -141,7 +141,7 @@ footer {
 
 
 .about-pics {
-    align-content: center;
+    align-items: center;
     max-width: 350px;
     max-height: 350px;
     position: relative;
