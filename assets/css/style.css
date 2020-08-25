@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Permanent+Marker&display=swap');
 
 body {
     color: #333333;
-    font-family: "Barlow" , sans-serif;
+    font-family: "Baloo Tamma 2" , sans-serif;
     background-color: #ffffff;
 }
 header {
@@ -17,60 +17,49 @@ header {
 
 .navbar-brand {
     font-size: 120%;
-    color: #ffffff;
+    
 }
 
-#hero-image  {
-    height: 700px;
-    width: 100%;
-    background: url('../images/hero-img.jpg') no-repeat center center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+.nav-item {
+    font-size: 16px;
 }
 
-#hero-outer {
-    height: 700px;
+.hero-image  {
+     background-image: url("../images/hippo-main.jpg");
     width: 100%;
-    overflow: hidden;
+    min-height: 100vh;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-x: 36%;
 }
 
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
-#cover-text, cover-text p {
-    color: #f2bb16;
-    font-size: 50px;
-    font-family: "Permanent Marker" , sans-serif;
-    letter-spacing: 4px;
-    text-align: center;
-
-}
-
-#cover-text {
-    width: 570px;
-    height: 100px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
-    background-color: rgba(255, 255, 255, 0.8);
-
-    top: 150px;
-    bottom: 150px;
-    right: 150px;
-    left: 150px;
-
-
+.greeting {
     position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 14%;
+    z-index: 1;
+    text-align: center;
+    font-family: "Permanent Marker";
+    font-size: 190px;
+    letter-spacing: 12px;
+    color: rgba(255, 230, 0, 1);
+    
+}
+
+.hero-info {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 94%;
+    left: 15%;
+    z-index: 1;
+    text-align: left;
+    font-family: "Baloo Tamma 2";
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5);    
 }
 
 
