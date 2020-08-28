@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Permanent+Marker&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 
 body {
     color: #ffffff;
@@ -29,7 +25,6 @@ header {
 
 .navbar-nav a {
     font-size: 15px;
-    color: white;
 }
 
 
@@ -37,7 +32,6 @@ header {
      background-image: url("../images/hippo-main.jpg");
     width: 100%;
     min-height: 100vh;
-    
     position: relative;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -48,7 +42,6 @@ header {
 .greeting {
     position: absolute;
     width: 100%;
-    max-width: 100%;
     top: 14%;
     z-index: 1;
     text-align: center;
@@ -57,22 +50,7 @@ header {
     letter-spacing: 12px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px #000000;
-    
 }
-
-.hero-info {
-    position: absolute;
-    width: 90%;
-    max-width: 100%;
-    top: 94%;
-    left: 15%;
-    z-index: 1;
-    text-align: left;
-    font-family: "Baloo Tamma 2";
-    font-size: 20px;
-    color: rgb(255, 255, 255, 0.5);    
-}
-
 
 
 .heading {
@@ -81,6 +59,7 @@ header {
     
     padding: 30px;
 }
+
 
 
 .about-info {
@@ -99,13 +78,13 @@ footer {
     padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
-    letter-spacing: 60px;
+    letter-spacing: 20px;
 }
 
 .social-links li a i {
     display: inline;
     align-content: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #000000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -115,7 +94,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: yellow;
+    color: greenyellow;
 }
 
 #footer-details {
@@ -141,20 +120,20 @@ footer {
 
 
 .about-pics {
-    text-align: center;
     
+    position: relative;
     max-width: 350px;
     max-height: 350px;
     
 }
 
-.about-img {
+.button-sign {
     text-align: center;
-    
 }
 
 .sign-up {
     font-size: 40px;
+    position:;
 }
 
 
@@ -172,4 +151,10 @@ footer {
 .about-box {
     max-width: 1200px;
     color: rgba(rgba(0, 0, 0, 0.5), green, blue, alpha)
+}
+
+.info-image {
+    
+    width: 100%;
+  height: auto;
 }
