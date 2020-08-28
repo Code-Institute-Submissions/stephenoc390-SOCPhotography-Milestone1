@@ -129,11 +129,13 @@ footer {
 
 .button-sign {
     text-align: center;
+    
 }
 
 .sign-up {
-    font-size: 40px;
-    position:;
+    color: black;
+    font-size: 30px;
+    background-color: white;
 }
 
 
@@ -157,4 +159,5 @@ footer {
     
     width: 100%;
   height: auto;
+  padding-top: 10px;
 }
