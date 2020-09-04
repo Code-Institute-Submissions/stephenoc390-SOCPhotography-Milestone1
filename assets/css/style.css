@@ -67,7 +67,7 @@ header {
     text-align: center;
     
     padding: 30px;
-    text-shadow: 1px 1px 1px #000000;
+    
 }
 
 .info-contact {
@@ -77,6 +77,11 @@ header {
 .about-info {
     text-align: center;
     font-size: 18px;
+}
+
+.about-info-goodbye {
+    text-align: center;
+    font-size: 25px;
 }
 
 
@@ -128,6 +133,13 @@ header {
 
 .info-box-one {
     max-width: 500px;
+    text-align: center;
+    position: relative;
+    align-content: center;
+}
+
+.info-box-two {
+    max-width: 800px;
     text-align: center;
     position: relative;
     align-content: center;
@@ -185,9 +197,11 @@ footer {
 }
 
 .boxmodel {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
     max-width: 85%;
     padding-bottom: 40px;
+    color: black;
+   
 }
 
 #page-title {
@@ -206,6 +220,33 @@ footer {
 }
 
 .address {
-    text-align: right;
+    text-align: center;
     
+}
+
+.info-contact{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.intouch {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#circle-container {
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+   
+   margin: 0 auto;
+}
+
+#circle-cover-bg {
+   background-image: url("../images/contact-pic.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   height: 100%;
+   border-radius: 50%;
 }
