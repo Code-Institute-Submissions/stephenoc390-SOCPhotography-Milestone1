@@ -185,8 +185,8 @@ footer {
 .social-links li a i {
     display: inline;
     align-content: center;
-    font-size: 40px;
-    color: #26241f;
+    font-size: 60px;
+    color: #8c754a;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -298,6 +298,8 @@ background-color: #b3daf2;
 .name-title {
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center;
+    max-width: 100%;
 }
 
 h2 {
