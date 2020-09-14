@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Permanent+Marker&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@400;600&family=Permanent+Marker&display=swap');
 
 body {
     color: #ffffff;
@@ -8,7 +8,7 @@ body {
 }
 header {
     margin: 0;
-    font-family: "Quicksand" , sans-serif;
+    font-family: "Julius Sans One" , sans-serif;
     font-weight: 600;
     color: #ffffff;
     font-size: 20px;
@@ -17,14 +17,10 @@ header {
     
 }
 
-.navbar-brand {
-    font-size: 90%;
-    color: white;
-    
-}
 
 .navbar-nav a {
     font-size: 15px;
+    font-weight: bold;
 }
 
 
@@ -49,11 +45,11 @@ header {
     font-size: 80px;
     letter-spacing: 12px;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 2px 2px 2px #5a708c;
 }
 
 .title {
-    font-family: "Quicksand" , sans-serif;
+    font-family: "Julius Sans One" , sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 50px;
@@ -64,7 +60,7 @@ header {
 
 
 .heading{
-    font-family: "Quicksand" , sans-serif;
+    font-family: "Julius Sans One" , sans-serif;
     text-align: center; 
     color: #403c27;
 }
@@ -292,7 +288,8 @@ background-color: #b3daf2;
 }
 
 .gallery-cara{
-    text-align: center
+    font-family: "Julius Sans One" , sans-serif;
+    text-align: center;
 }
 #carousel-arusha {
     max-width: 400px;
@@ -317,9 +314,13 @@ h3 {
 
 .block-divider {
     max-width: 70%;
-    background-color: #8dc3f2;
-    
-    
+    background-color: #8dc3f2;  
+}
+
+
+.block-divider-sml {
+    max-width: 10%;
+    background-color: #8dc3f2;  
 }
 
 .home-pics {
@@ -330,11 +331,32 @@ h3 {
 .gal-button {
     text-align: center;
     padding-top: 40px;
-    font-family: "Quicksand" , sans-serif;
+    font-family: "Julius Sans One" , sans-serif;
     font-weight: 600;
     
 }
 
+
+.gal-button-2 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Julius Sans One" , sans-serif;
+    font-weight: 600;
+    padding-bottom: 40px;}
+
 .first-pics {
     max-width: 400px;
+}
+
+#opening {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+#ending  {
+    padding-top: 15px
+}
+
+.foot-cara {
+    padding-top: 60px;
 }
