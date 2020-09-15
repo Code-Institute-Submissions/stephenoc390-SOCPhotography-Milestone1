@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@400;600&family=Permanent+Marker&display=swap');
 
 body {
-    color: #ffffff;
+    color:  #8c754a;
     font-family: "Montserrat" , sans-serif;
     background-color: #ffffff;
     letter-spacing: 1px;
@@ -61,7 +61,7 @@ header {
 }
 
 
-}
+
 
 .info-contact {
     padding-top: 30px;
@@ -80,9 +80,7 @@ header {
 }
 
 
-#footer-details {
-    padding-top: 100px;
-}
+
 
 #gallery {
     clear: both;
@@ -202,7 +200,7 @@ footer {
     
     max-width: 90%;
     padding-bottom: 40px;
-    color: #26241F;
+    color: #8c754a;
    
 }
 
@@ -244,6 +242,7 @@ background-color: #b3daf2;
 .intouch {
     padding-top: 50px;
     font-size: 20px;
+    line-height: 50px;
 }
 
 #circle-container {
@@ -345,7 +344,14 @@ h3 {
     padding-top: 40px;
     font-family: "Julius Sans One" , sans-serif;
     font-weight: 600;
-    padding-bottom: 40px;}
+    padding-bottom: 40px;
+    color: #ffffff;
+    }
+
+.submit-button {
+    font-family: "Julius Sans One" , sans-serif;
+}
+    
 
 .first-pics {
     max-width: 400px;
@@ -371,4 +377,12 @@ h3 {
 .list {
     text-align: center;
     color: #8c764d;
+}
+
+.form-layout {
+    padding-bottom: 60px;
+}
+
+.form-contact {
+    padding-bottom: 60px;
 }
