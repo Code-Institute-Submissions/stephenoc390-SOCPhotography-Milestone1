@@ -27,6 +27,8 @@ The website was created so that the fictional professional photographer can show
 -   ### Design
     -   #### Colour Scheme (Insert images)
         -   Colour scheme was subtracted from the main image on the home page, using a selection of blues and browns with a white background, I chose white for the background as to not distract the user from the images.
+        <img src="assets/readme/colour-theme-1.png" style="margin: 0;">
+        <img src="assets/readme/colour-theme-2.png" style="margin: 0;">
     -   #### Typography
         -   The Montserrat font is the main font for content used throughout the website with Sans Serif as a fallback font if the imported fonts do not load. Montserrat is a clean a friendly font which works well to show the website is very welcoming.
         -   The Julius Sans One font is used for al thel headings throughout the website with Sans Serif as a fallback font if the imported fonts do not load. Julius Sans One gives the look of a quite simple font and easy to read but, yet also professional to keep in mind it is a professional photographers page.
