@@ -17,7 +17,7 @@ header {
 .navbar {
     background-color: #ffffff;
     color: #403c27;
-    line-height: 8px;
+    line-height: 10px;
     
 }
 
@@ -90,14 +90,22 @@ header {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+@media (min-width:768px) {
+    h2 {
+    font-size: 55px;
 }
 
 h3 {
     font-size: 35px;
 }
-
-
+}
 
 /*----------------------------------------------------Main Body*/
 
@@ -140,8 +148,16 @@ h3 {
 }
 
 #top-text {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+@media (min-width:768px) {
+    #top-text {
     padding-top: 60px;
     padding-bottom: 15px;
+}
+
 }
 
 #bottom-text  {
@@ -203,12 +219,36 @@ footer {
 
 /*----------------------------------------------------Homepage*/
 
-.page-title {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.homepage-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-family: "Julius Sans One" , sans-serif;    
     color: #403c27;
+}
+
+@media (min-width:768px) {
+.homepage-title {
+     padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+}
+
+.page-title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Julius Sans One" , sans-serif;    
+    color: #403c27;
+}
+
+@media (min-width:768px) {
+.page-title {
+     padding-top: 60px;
+    padding-bottom: 40px;
+
+}
 }
 
 .heading{
@@ -237,9 +277,7 @@ footer {
     padding-bottom: 15px;
 }
 
-.container-fluid {
-    width: 100%;  
-}
+
 
 /*----------------------------------------------------Buttons*/
 
@@ -268,6 +306,13 @@ footer {
 
 /*----------------------------------------------------Form*/
 .form-contact {
+    padding-bottom: 30px;
+    font-size: 15px;
+    }
+
+    @media (min-width:768px) {
+        .form-contact {
     padding-bottom: 60px;
     font-size: 15px;
+    }
     }
