@@ -41,11 +41,11 @@ The website was created so that the fictional professional photographer can show
 
     -   Home Page Wireframe - [View](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/homepage-wireframe.png)
 
-    -   Gallery Page Wireframe - [View](https://github.com/)
+    -   Gallery Page Wireframe - [View](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/gallery-wireframe.png)
 
-    -   Workshops Page Wireframe - [View](https://github.com/)
+    -   Workshops Page Wireframe - [View](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/workshops-wireframe.png)
 
-    -   Contact Page Wireframe - [View](https://github.com/)
+    -   Contact Page Wireframe - [View](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/contact-wireframe.png)
 
 ## Features
 
@@ -85,14 +85,14 @@ The website was created so that the fictional professional photographer can show
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/html-validator.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/css-validator.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -142,11 +142,65 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing 
 
 -   The Website was tested on Google Chrome, Opera and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6 & iPhoneX Plus.
 -   Testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
+
+### Known Bugs
+
+- Seems to be a delay with images loading on all pages.
+    - Will look to move images to external site for future updates.
+    
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/stephenoc390/SOCPhotography-Milestone1)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://stephenoc390.github.io/SOCPhotography-Milestone1/) in the "GitHub Pages" section.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/stephenoc390/SOCPhotography-Milestone1)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+## Credits
+
+### Code
+
+-   Coding ideas came from:
+    - the Code Institute training videos and projects
+    - Bootstrap documentation
+    - Stack Overflow
+    - W3schools
+
+### Media
+
+-   All Images were created by me.
 
 
 
