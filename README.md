@@ -1,6 +1,6 @@
 <h1 align="center">Stephen O'Connor Photography</h1>
 
- [View the live project here.](https://codeinstitute.net)
+ [View the live project here.](https://stephenoc390.github.io/SOCPhotography-Milestone1/)
 
 Stephen O’Connor Photography is a fictional photography website created for my first milestone project in the User-Centric Development module with Code Institute.
 
@@ -39,7 +39,7 @@ The website was created so that the fictional professional photographer can show
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://github.com/stephenoc390/SOCPhotography-Milestone1/blob/master/assets/readme/homepage-wireframe.png)
 
     -   Gallery Page Wireframe - [View](https://github.com/)
 
