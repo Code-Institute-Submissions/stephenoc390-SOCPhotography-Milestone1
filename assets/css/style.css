@@ -81,14 +81,7 @@ header {
     }
 /*---------------------------------------------------Headings*/
 
-.title {
-    font-family: "Julius Sans One" , sans-serif;
-    text-align: center;
-    font-size: 50px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    text-shadow: 1px 1px 1px #403c27;
-}
+
 
 .heading{
     font-family: "Julius Sans One" , sans-serif;
@@ -104,11 +97,7 @@ h3 {
     font-size: 35px;
 }
 
-.page-title {
-     padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-}
+
 
 /*----------------------------------------------------Main Body*/
 
@@ -123,7 +112,7 @@ h3 {
 }
 
 .image-padding {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 
