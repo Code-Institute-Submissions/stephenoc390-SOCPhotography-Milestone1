@@ -6,7 +6,7 @@ Stephen O’Connor Photography is a fictional photography website created for my
 
 The website was created so that the fictional professional photographer can showcase his photography and also inform the user of workshops he offers with the options to enquire about availability and for more details of the workshops, view his social media accounts and a form option to contact him. All images were taken by myself in Tanzania but I am not a photographer or actually based in Tanzania.
 
-<h2 align="center"><img src="assets/images/readme-images/responsive-image.png" style="margin: 0;"></h2>
+<h2 align="center"><img src="assets/readme/responsive-image.png" style="margin: 0;"></h2>
 
 ## User Experience (UX) 
 
