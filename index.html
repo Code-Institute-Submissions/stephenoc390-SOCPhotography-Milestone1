@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>MS1 - Steve 'N Tanzania</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-light navbar-expand-md bg-default fixed-top">
-        <a href="/" class="navbar-brand">SOC Photography</a>
-        <button
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>MS1 - Steve 'N Tanzania</title>
+</head>
+
+<body>
+	<!--Navbar-->
+	<header>
+		<nav class="navbar navbar-light navbar-expand-md bg-default fixed-top">
+			<a href="/" class="navbar-brand">SOC Photography</a>
+
+
+			<button
           class="navbar-toggler ml-auto"
           type="button"
           data-toggle="collapse"
@@ -34,175 +29,172 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="active nav-item mr-2">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="workshops.html">Workshops</a>
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="active nav-item mr-2">
+						<a class="nav-link" href="/">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="workshops.html">Workshops</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-    <section class="about">
-      <div class="hero-image">
-        <div class="greeting">
-          <p>Karibu</p>
-          <p id="welcome-greet">(Welcome)</p>
-        </div>
-      </div>
-    </section>
+	<!--Hero Image-->
+	<div class="hero-image">
+		<div class="greeting">
+			<p>Karibu</p>
+			<p id="sub-greeting">(Welcome)</p>
+		</div>
+	</div>
 
-    <section>
-      <div class="container boxmodel">
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-12 info-box-one name-title">
-              <h2 class="heading">Stephen O'Connor</h2>
-              <h3 class="heading">Photography</h3>
-            </div>
-          </div>
-        </div>
+	<!--Page Title-->
 
-        <hr class="block-divider" />
+	<div class="container main-body">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-12 page-title">
+					<h2>Stephen O'Connor</h2>
+					<h3>Photography</h3>
+				</div>
+			</div>
+		</div>
 
-        <div class="container-fluid home-pics">
-          <div class="row justify-content-center">
-            <div class="d-none d-lg-block col-lg-4 info-box-one">
-              <img
+		<hr class="block-divider" />
+		<!--Gallery Pics-->
+
+		<div class="container-fluid image-padding">
+			<div class="row justify-content-center">
+				<div class="d-none d-lg-block col-lg-4 ">
+					<img
                 src="assets/images/wildebeest.jpg"
                 class="img-fluid"
                 alt=""
-              />
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 info-box-one">
-              <img
+                    />
+                </div>
+					<div class="col-12 col-md-6 col-lg-4 ">
+						<img
                 src="assets/images/elephant-tree.jpg"
                 class="img-fluid"
                 alt=""
-              />
-            </div>
-            <div class="d-none d-md-block col-md-6 col-lg-4 info-box-one">
-              <img
+                    />
+                </div>
+						<div class="d-none d-md-block col-md-6 col-lg-4 ">
+							<img
                 src="assets/images/bird-flight.jpg"
                 class="img-fluid"
                 alt=""
-              />
-            </div>
-            <div class="col-12 gal-button">
-              <a
-                class="btn btn-outline-primary btn-sm"
-                href="gallery.html"
-                role="button"
-                >Full Gallery</a
-              >
-            </div>
-          </div>
-        </div>
+                    />
+                </div>
+							<!--Gallery Button-->
+							<div class="col-12 gallery-button">
+								<a class="btn btn-outline-primary btn-sm" href="gallery.html" role="button">Full
+									Gallery</a>
+							</div>
+						</div>
+					</div>
 
-        <hr class="block-divider" />
+					<hr class="block-divider" />
+					<!--Main Text-->
+					<div class="container-fluid">
+						<div class="row justify-content-center">
+							<div class="col-12 text-box">
+								<p id="top-text">
+									I'm a wildlife photographer based in Tanzania. <br />
+                                    I have over 15 years experince and have my work frequently
+                                    featured in media outlets such as National Geographic and the
+                                    BBC.
+                                </p>
+							</div>
+						</div>
 
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-12 info-box-one">
-              <p class="about-info" id="opening">
-                I'm a wildlife photographer based in Tanzania. <br />
-                I have over 15 years experince and have my work frequently
-                featured in media outlets such as National Geographic and the
-                BBC.
-              </p>
-            </div>
-          </div>
+						<hr class="block-divider-sml" />
 
-          <hr class="block-divider-sml" />
+						<div class="row justify-content-center">
+							<div class="col-12 text-box">
+								<p id="bottom-text">
+									I run weekly photography workshops based around Arusha where I
+									will show you the best techniques for capturing the perfect
+									wildlife snaps and also workshops where we will explore local
+									villages, towns and local culture.
+								</p>
+							</div>
+							<!--Workshop Button-->
+							<div class="col-12 enquire-button">
+								<a class="btn btn-outline-primary btn-sm" href="workshops.html" role="button">Learn
+									more</a>
+							</div>
+						</div>
+					</div>
+					<hr class="block-divider" />
+				</div>
 
-          <div class="row justify-content-center">
-            <div class="col-12 info-box-one">
-              <p class="about-info" id="ending">
-                I run weekly photography workshops based around Arusha where I
-                will show you the best techniques for capturing the perfect
-                wildlife snaps and also workshops where we will explore local
-                villages, towns and local culture.
-              </p>
-            </div>
-            <div class="col-12 gal-button-2">
-              <a
-                class="btn btn-outline-primary btn-sm"
-                href="workshops.html"
-                role="button"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <hr class="block-divider" />
-      </div>
-    </section>
+				<!--Footer-->
+				<footer>
+					<div class="container footer-contain">
+						<div class="row justify-content-center">
+							<!--Social links-->
+							<div class="col-12 col-md-6 col-lg-4 social-contain">
+								<p class="social-link-info">Find me on social media</p>
 
-    <footer>
-    <div class="container boxmodel">
-    <div class="row justify-content-center">
-        
-            <div class="col-12 col-md-6 col-lg-4 info-box-one">
-            <p class="social-link-info">Find me on social media</p>
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/oh_world_and_wildlife/?hl=en">
-                  <i class="fa fa-instagram" ></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.twitter.com/">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.youtube.com/">
-                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">Youtube</span>
-                </a>
-              </li>
-            </ul>
-            
-          </div>
-    </div>
-    </div>
-    <div id="createdby">
-    <p>Website created by Stephen O'Connor</p>
-    </div>
-    </footer>
+								<ul class="list-inline social-links">
+									<!--Facebook-->
+									<li class="list-inline-item">
+										<a target="_blank" href="https://www.facebook.com/">
+											<i class="fa fa-facebook" aria-hidden="true"></i>
+											<span class="sr-only">Facebook</span>
+										</a>
+									</li>
+									<!--Instagram-->
+									<li class="list-inline-item">
+										<a target="_blank"
+											href="https://www.instagram.com/oh_world_and_wildlife/?hl=en">
+											<i class="fa fa-instagram" ></i>
+											<span class="sr-only">Instagram</span>
+										</a>
+									</li>
+									<!--Twitter-->
+									<li class="list-inline-item">
+										<a target="_blank" href="https://www.twitter.com/">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+											<span class="sr-only">Twitter</span>
+										</a>
+									</li>
+									<!--Youtube-->
+									<li class="list-inline-item">
+										<a target="_blank" href="https://www.youtube.com/">
+											<i class="fa fa-youtube" aria-hidden="true"></i>
+											<span class="sr-only">Youtube</span>
+										</a>
+									</li>
+								</ul>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+							</div>
+						</div>
+					</div>
+					<!--Credits-->
+					<div id="createdby">
+						<p>Website created by Stephen O'Connor</p>
+					</div>
+				</footer>
+				<!--Bootstrap Scripts-->
+				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+					integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+					crossorigin="anonymous"></script>
+				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+					integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+					crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+					integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+					crossorigin="anonymous"></script>
+</body>
+
 </html>
