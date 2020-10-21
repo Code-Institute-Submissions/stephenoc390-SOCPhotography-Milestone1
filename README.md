@@ -209,8 +209,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ### Acknowledgements
 
  -  My mentor Precious Ijege for helping me through the project
- -  The [Slack](https://slack.com/intl/en-gb/) community for thier useful tips and support 
- -  The [Code Institute](https://codeinstitute.net/) tutor team and also the student support team for thier help
+ -  The [Slack](https://slack.com/intl/en-gb/) community for their useful tips and support 
+ -  The [Code Institute](https://codeinstitute.net/) tutor team and also the student support team for their help
 
 
 
