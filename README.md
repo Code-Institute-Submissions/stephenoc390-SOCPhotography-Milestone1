@@ -197,16 +197,20 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ### Code
 
 -   Coding ideas came from:
-    - the Code Institute training videos and projects
-    - Bootstrap documentation
-    - Stack Overflow
-    - W3schools
+    - The [Code Institute](https://codeinstitute.net/) training videos and projects
+    - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) documentation
+    - [Stack Overflow](https://stackoverflow.com/)
+    - [W3schools](https://www.w3schools.com/)
 
 ### Media
 
 -   All Images were created by me.
 
+### Acknowledgements
 
+ -  My mentor Precious Ijege for helping me through the project
+ -  The [Slack](https://slack.com/intl/en-gb/) community for thier useful tips and support 
+ -  The [Code Institute](https://codeinstitute.net/) tutor team and also the student support team for thier help
 
 
 
