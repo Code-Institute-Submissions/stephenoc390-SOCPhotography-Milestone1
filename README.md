@@ -25,7 +25,7 @@ The website was created so that the fictional professional photographer can show
     1. As a Frequent User, I want to check to see if there are any newly added images.
 
 -   ### Design
-    -   #### Colour Scheme (Insert images)
+    -   #### Colour Scheme
         -   Colour scheme was subtracted from the main image on the home page, using a selection of blues and browns with a white background, I chose white for the background as to not distract the user from the images.
         <img src="assets/readme/colour-theme-1.png" style="margin: 0;">
         <img src="assets/readme/colour-theme-2.png" style="margin: 0;">
@@ -155,6 +155,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Seems to be a delay with images loading on all pages.
     - Will look to move images to external site for future updates.
     
+## Deployment
+
 ### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
